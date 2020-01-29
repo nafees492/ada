@@ -1,0 +1,19 @@
+#include<iostream>
+using namespace std;
+int power(int base,int a);
+int main()
+{
+	int x,y,result,sum;
+	sum=1;
+	cout<<"value of x";
+	cin>>x;
+	cout<<"power of x";
+	cin>>y;
+	for(int i=1;i<=y;i++)
+	{
+		sum=x*sum;
+	}
+	cout<<sum;
+
+
+}
